@@ -4,16 +4,16 @@ body{
 
 }
 nav{
-  background-color: rgb(19, 152, 108);
+  background-color: rgb(7, 7, 53);
   padding: 1rem;
    border: 2px solid #f0f8f6 ;
     image-orientation: from-image ;
-    box-shadow: 0 0 15px rgba(65, 149, 252, 0.7);
+    box-shadow: 0 0 15px rgb(25, 25, 81);
 }
 nav ul{
 list-style-type: none;
-margin: 200px;
-padding: 10px;
+margin-top: 0px;
+padding: 0px;
 display: flex;
 justify-content: space-around;
 }
@@ -21,22 +21,82 @@ nav ul li{
   display: inline;
 }
 nav ul li a{
-  color:rgb(29, 29, 105)
+  color: #f0f8f6;
   text-decoration: none ; 
   padding: 0.5rem 1rem;
   display: block;
   font-size: xx-large;
   font-weight: bolder;
 }
-div{
+.info{
   color: aliceblue;
+  width: 360px;
+  height: 240px;
+  margin-top: 80px;
+  margin-left: 50px;
+  justify-content: center;
     font-size: x-large;
     border: 5px solid #f0f8f6 ;
-    border-radius: 40%;
+    border-radius: 10%;
     image-orientation: from-image ;
     box-shadow: 0 0 15px rgba(65, 149, 252, 0.7);
-    padding-left: 220px;
-    padding-right: -200pxpx;
-    padding-bottom: 20px;
-    padding-top: 20px;
+
+   p{
+    margin-top: 50px;
+    margin-left: 30px;
+   } 
+  }
+  .detail{
+     color: aliceblue;
+     margin-left: 600px;
+     margin-top: -250px;
+     width: 360px;
+     height: 240px;
+  justify-content: center;
+    font-size: x-large;
+    border: 5px solid #f0f8f6 ;
+    border-radius: 10%;
+    image-orientation: from-image ;
+    box-shadow: 0 0 15px rgba(65, 149, 252, 0.7);
+p{
+  margin-left: 50px;
+  margin-top: 30px;
 }
+  }
+  .education{
+    
+     color: aliceblue;
+     width: 400px;
+     height: 280px;
+     margin-left: 50px;
+     margin-top: 40px;
+  justify-content: center;
+    font-size: x-large;
+    border: 5px solid #f0f8f6 ;
+    border-radius: 10%;
+    image-orientation: from-image ;
+    box-shadow: 0 0 15px rgba(65, 149, 252, 0.7);
+  
+p{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+  }
+
+  .skill{
+     color: aliceblue;
+     margin-left: 600px;
+     margin-top: -270px;
+     text-align: center;
+     width: 440px;
+     height: 300px;
+    font-size: x-large;
+    border: 5px solid #f0f8f6 ;
+    border-radius: 10%;
+    image-orientation: from-image ;
+    box-shadow: 0 0 15px rgba(65, 149, 252, 0.7);
+p{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+  }
